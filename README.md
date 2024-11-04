@@ -16,4 +16,10 @@ This Python program connects to a SQL database to fetch course registration data
 ## Setup
 1. Clone the repository.
 2. Create a `.env` file in the root directory and add your database credentials as shown below:
+3. 3. Install the required libraries:
+```bash
+pip install pandas sqlalchemy python-dotenv pymysql
+Usage
+Run the script using:
+python fetch_course_data.py
 
